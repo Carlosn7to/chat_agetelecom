@@ -26,6 +26,9 @@ import { RouterLink, RouterView } from 'vue-router'
   color: #333;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  max-width: 100vw;
+  max-height: 100%;
 }
 
 

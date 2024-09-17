@@ -1,6 +1,6 @@
 <script setup>
 
-import {onBeforeMount, ref} from 'vue';
+import {ref} from 'vue';
 
 import {useRoute} from "vue-router";
 
@@ -59,7 +59,7 @@ const sendPayload = () => {
 
 </div>
 
-  <iframe v-if="iframe" :src="url" frameborder="0"></iframe>
+  <iframe v-if="iframe" :src="url" ></iframe>
 
 </template>
 
@@ -193,14 +193,20 @@ iframe {
   left: 0;
 }
 
-@media min(768px) {
+@media (max-width: 750px) {
   .container {
     .form {
       padding: 3vh 0vw 5vh 0vw;
 
+      .logo {
+        img {
+          width: 35svw;
+        }
+      }
+
       .title {
         h1 {
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
 
         p {
@@ -218,11 +224,7 @@ iframe {
           font-size: 1rem;
         }
       }
-      .logo {
-        img {
-          width: 35vw;
-        }
-      }
+
     }
   }
 }
