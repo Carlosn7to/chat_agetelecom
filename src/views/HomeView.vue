@@ -193,5 +193,39 @@ iframe {
   left: 0;
 }
 
+@media {
+  .container {
+    .form {
+      padding: 3vh 0vw 5vh 0vw;
+
+      .title {
+        h1 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: .9rem;
+        }
+      }
+
+      .input {
+        width: 80%;
+        label {
+          font-size: .9rem;
+        }
+
+        input {
+          font-size: 1rem;
+        }
+      }
+      .logo {
+        img {
+          width: 35vw;
+        }
+      }
+    }
+  }
+}
+
 </style>
 
