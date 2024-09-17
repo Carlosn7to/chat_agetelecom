@@ -7,7 +7,6 @@ import {useRoute} from "vue-router";
 const route = useRoute();
 
 import logo from '@/assets/img/age_color_full.png';
-import router from "@/router/index.js";
 
 const username = ref('');
 const identify = ref('');
