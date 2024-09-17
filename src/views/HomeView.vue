@@ -21,7 +21,7 @@ const sendPayload = () => {
     alert('Preencha todos os campos!');
   } else {
 
-    if(route.path === '/ReclameAqui') {
+    if(route.path === '/ReclameAqui' || route.path === '/reclameaqui') {
 
       url.value = `https://agetelecom.digitro.cloud/chatclient/chat.php?ci=${username.value}-${identify.value}-ReclameAqui&servico=Servico37.chat&aplicacao=interact`
     } else {
