@@ -193,7 +193,7 @@ iframe {
   left: 0;
 }
 
-@media {
+@media min(768px) {
   .container {
     .form {
       padding: 3vh 0vw 5vh 0vw;
